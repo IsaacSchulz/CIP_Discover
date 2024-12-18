@@ -14,3 +14,5 @@ Serial Number,
 Product Name
 
 and creates an extra column titles 'Device Name' for the user to enter their own nicknames for the devices.
+
+The Discover function in Pycomm3 is not perfect. Running it once can miss some items that don't respond right away. So, I made it so the script runs the discover query 10 times and adds any new items to the list before writing to the excel document.
