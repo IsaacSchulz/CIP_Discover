@@ -2,7 +2,6 @@
 # Created by Isaac Schulz
 # November 27 2024
 # Motion Controls Robotics
-# Revision Notes At Bottom
 
 from xmlrpc.client import DateTime
 from pycomm3 import LogixDriver
